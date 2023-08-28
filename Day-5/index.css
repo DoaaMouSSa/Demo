@@ -1,0 +1,43 @@
+body{
+    background: url("bg1.jpg")  no-repeat fixed;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+.box{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    background-color: #e8e8e8;
+    width: 100%;
+}
+.smallBox{
+    margin-bottom: auto;
+    position: absolute;
+    left: 25%;
+    top: 70%;
+    background-color: #a6b0b2;
+    width: 50%;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Pacifico', 'MyriadPro-Regular', 'AdobeInvisFont';
+    text-align: center;
+    color: #68686a;
+    padding-top: 25px;
+}
+.paragraph{
+    font-family: 'Tajawal','Titillium Web', sans-serif;
+    font-size: 20px;
+    color: #797979;
+    text-align: center;
+    line-height: 1.6;
+    padding-bottom: 25px;
+    word-spacing: 1px;
+}
+.smallParagraph{
+    color:#e8edf0;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Pacifico', 'MyriadPro-Regular', 'AdobeInvisFont';
+}

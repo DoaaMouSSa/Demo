@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a:active{
+    color: blue;
+}
+a:hover{
+    color: green;
+    font-size: large;
+}
+a:visited{
+    color: rgb(104, 204, 243);
+}
+.heading{
+    text-align: center;
+    font-style: 600;
+    color: rgb(45, 187, 187);
+    font-size: x-large;
+    text-decoration-line:underline;
+    text-decoration-thickness: 5;
+    text-decoration-color: rgb(45, 187, 187);
+    text-transform: capitalize;
+}

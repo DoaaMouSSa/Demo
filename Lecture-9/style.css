@@ -1,0 +1,13 @@
+
+.box{
+    border-color:gray;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 20px;
+    margin:5px auto;
+    text-align: center;
+}
+.text-20{
+    font-size: 20px;
+}

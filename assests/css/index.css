@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    line-height: 30px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.text-shadow{
+    text-shadow: 2px 1px wheat;
+}
+.brand-text{
+    color: #f6b128;
+    font-weight: bold;
+}
+.text-white{
+color: white;
+word-wrap: 10px;
+}
+.section{
+    margin-top:78px;
+    background-color: white;
+position: relative;
+}
+.test{
+    background-color: white;
+    position: absolute;
+    top:30%;
+}
+.font-40{
+    font-size: 40px;
+}
+.font-70{
+    font-size: 70px;
+}
+.text-section-sevice{
+    text-transform: uppercase;
+}
+.icon{
+    font-size: 50px;
+    margin-left: 22px;
+    margin-top:20px;
+    color: white;
+}
+.lockicon{
+    font-size: 50px;
+    margin-left: 29px;
+    margin-top:25px;
+    color: white;
+}
+.yellowCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ffc107;
+    align-self: center;
+}
+.centerItems{
+    align-items: center;
+    justify-content: center;
+}

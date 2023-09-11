@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assests/css/bootstrap.css"></link>
-    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu&family=Roboto:wght@300&family=Rubik:wght@300&family=Tajawal:wght@300&family=Titillium+Web:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assests/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/index.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <div class="container" >
         <div class="row">
     <div class="col-md-2 col-xs-12">
-        <div class="list-group">
+        <div class="list-group alert-dark">
             <button type="button" class="list-group-item list-group-item-action active">
               Change
             </button>
@@ -32,16 +33,21 @@
             <button class="list-group-item list-group-item-action" onclick="writeHeading();">Write</button>
           </div>
         </div>
-        <div class="col-md-10 col-xs-12 box p-2" id="box">
-            <p class="lead" id="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie
-                Contrary to popular belief
-            </p> 
+        <div class="col-md-10 col-xs-12" >
+            <div class="card box" id="box">
+                <h5 class="card-header text-primary">Text</h5>
+                <div class="card-body">
+                  <p class="card-text" id="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie
+                    Contrary to popular belief
+                </p> 
+                </div>
+              </div>
                   
         </div>
 </div>
-
+<hr class="bg-gradient m-5">
 <h3 class="text-center text-info mt-3 mb-3 text-uppercase"><u>calculations</u></h3>
 
 <div class="container">
@@ -61,6 +67,8 @@
     </div>
 </div>
 </div>
+<hr class="bg-gradient m-5">
+
 <h3 class="text-center text-info mt-3 mb-3 text-uppercase"><u>Objects & sllice & substring</u></h3>
 
 <div class="container">
@@ -81,10 +89,11 @@
     </div>
 </div>
 </div>
+<hr class="bg-gradient m-5">
 
-<script type="text/javascript" src="assests/js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="assests/js/popper.min.js"></script>
-<script type="text/javascript" src="assests/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+<script type="text/javascript" src="../assests/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../assests/js/popper.min.js"></script>
+<script type="text/javascript" src="../assests/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

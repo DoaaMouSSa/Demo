@@ -1,0 +1,52 @@
+.cover{
+    object-fit: cover;
+}
+.borderBrownDotted{
+border-right:1px groove brown;
+border-bottom: 1px groove brown;
+border-radius: 50px;
+/* border-color: brown;
+
+border-style: dotted;
+border-width: 1px;
+box-shadow: 0 0 1px 2px brown; */
+}
+.zoom:hover {
+    transform: scale(1.09); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .centerItems{
+    text-align: center;
+  }
+  .bg_dark-coffee{
+background-color: #3B2F2F;
+  }
+  .text_dark-coffee{
+color: #3B2F2F;
+
+  }
+  .rotated:hover {
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }
+  .bg-light{
+    opacity: .5;
+  }
+  .footerIcon{
+    background-color: wheat;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    display:table;
+    }
+    .footerLink{
+      display:table-cell;
+      vertical-align:middle;
+    }
+    .violet{
+      color: blueviolet;
+    }
+    .bg-wheat{
+      background-color: #f8e4be63;
+    }
+ 

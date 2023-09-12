@@ -1,0 +1,19 @@
+body{
+  color: #3B2F2F;
+}
+.navbar {
+    height: 30px;
+  }
+  .bg_dark-coffee{
+    background-color: #3B2F2F;
+      }
+      .text_dark-coffee{
+    color: #3B2F2F;
+
+      }
+      .list-group-item.active {
+        z-index: 2;
+        color: #fff;
+        background-color: #3B2F2F;
+        border-color: wheat;
+      }

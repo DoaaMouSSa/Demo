@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Phudu&family=Roboto:wght@300&family=Rubik:wght@300&family=Tajawal:wght@300&family=Titillium+Web:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assests/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="text-center text-info mt-3 mb-3 text-uppercase"><u>Objects & sllice & substr</u></h3>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-3 box">
+        <h3 class="text-danger" id="slicedText">Hello World</h3> 
+        <button class="btn btn-success mb-2" onclick="slice();">Slice</button>
+
+    </div>
+    <div class="col-md-3 box">
+        <h3 class="text-danger" id="subText">Welcome to javascript</h3> 
+        <button class="btn btn-info mb-2" onclick="subString();">subString</button>
+    </div>
+    <div class="col-md-3 box">
+        <h3 class="text-danger" id="subStrText">Hello World!</h3> 
+        <button class="btn btn-primary mb-2" onclick="subStr();">subStr</button>
+    </div>
+    <div class="col-md-3 box">
+        <h3 class="text-danger" id="replaceText">Hello World!</h3> 
+        <button class="btn btn-danger mb-2" onclick="replaceStr();">replace</button>
+    </div>
+    </div>
+    <h3 class="text-center text-info mt-3 mb-3 text-uppercase"><u>Search & Match & Last IndexOf</u></h3>
+=
+    <div class="row">
+   
+    <div class="col-md-4 box">
+        <h3 class="text-danger" id="originalSearchText">javascript Is a Programming Language!</h3> 
+        <h3 class="text-danger" id="searchText"></h3> 
+        <button class="btn btn-success mb-2" onclick="searchStr();">Search for "Is"</button>
+    </div>
+    <div class="col-md-4 box">
+        <h3 class="text-danger" id="originalMatchText">javascript Is a Programming Language!</h3> 
+        <h3 class="text-danger" id="matchText"></h3> 
+        <button class="btn btn-warning mb-2" onclick="matchStr();">Match "Programming"</button>
+    </div>
+    <div class="col-md-4 box">
+        <h3 class="text-danger" id="originalLastIndexText">javascript Is a Programming Language!</h3> 
+        <h3 class="text-danger" id="lastIndexText"></h3> 
+        <button class="btn btn-primary mb-2" onclick="lastIndexStr();">Last Index</button>
+    </div>
+   
+</div>
+</div>
+
+<h3 class="text-center text-info mt-3 mb-3 text-uppercase"><u>Conditions</u></h3>
+<div class="container">
+    <div class="row">
+   
+        <div class="col-md-4 box">
+            <button class="btn btn-info mb-2" onclick="printVar();">Print Variable</button>
+
+        </div>
+        <div class="col-md-4 box">
+            <h3 class="text-danger" id="number">7</h3> 
+            <button class="btn btn-warning mb-2" onclick="checkNumber();">check Number</button>
+        </div>
+        <div class="col-md-4 box">
+            <h3 class="text-danger" id="fruit">pineapple</h3> 
+            <button class="btn btn-warning mb-2" onclick="checkFruit();">check Fruit</button>
+        </div>
+       
+    </div>
+</div>
+    <h3 class="text-center text-info mt-3 mb-3 text-uppercase"><u>Arrays and Sets</u></h3>
+    <div class="container" >
+        <div class="row">
+    <div class="col-md-6 col-xs-12 box">
+        <button class="btn btn-primary mb-2" onclick="displayArrayOfStudents();">Display Studtent By Array</button>
+        <h3 class="text-danger" id="stdText">Students : </h3> 
+
+        </div>
+        <div class="col-md-6 col-xs-12 box" >
+            <button class="btn btn-primary mb-2" onclick="displaySetOfStudents();">Display Studtent By Set</button>
+
+            <h3 class="text-danger" id="studentText">Students : </h3> 
+        </div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="../assests/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../assests/js/popper.min.js"></script>
+<script type="text/javascript" src="../assests/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

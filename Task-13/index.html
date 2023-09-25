@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" type="text/css" href="../assests/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-4 col-xs-12 box">
+        <h4 class="text-center weight-600">BMI Calculator</h4>
+        <label class="mt-3">Height (CM):</label><br>
+        <input type="number" class="w-100" id="heightInput"/><br>
+        <label class="mt-3">Weight (KG):</label><br>
+        <input type="number" class="w-100" id="weightInput"/><br>
+        <button class="btn btn-primary w-100 mt-3" onclick="checkValues();">Calculate</button>
+        <p class="text-center text-danger mt-3" id="warningMsg"></p>
+        <p class="mt-3">Your BMI is:</p>
+        <p class="text-center text-bold navy mt-0" id="infoNumber"></p>
+        <p class="text-center mt-0" id="infoMsg"></p>
+    </div>
+</div>
+    <script type="text/javascript" src="../assests/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../assests/js/popper.min.js"></script>
+    <script type="text/javascript" src="../assests/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

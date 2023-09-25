@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-image: url(../images/bg_bmi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    border: 1px solid rgb(195, 199, 201);
+    margin: 50px auto;
+    padding:50px;
+    text-align: left;
+    box-shadow: 5px 10px skyblue;
+    background-color: white;
+    border-radius: 2px;
+}
+.weight-600{
+    font-weight: 600;
+}
+/* .inputDecor{
+    border-bottom: 2px solid navy;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+} */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.navy{
+    color:navy;
+}
